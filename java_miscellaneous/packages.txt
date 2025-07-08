@@ -1,0 +1,11 @@
+****************In-Built Packages in Java***************
+1) java.lang(already imported) -> Contains essential stuff for coding in Java. Like +/- stuff, primitive data types in classes for usage.
+2) java.io -> For standard input and output 
+3) java.util -> Contains data structures and stuff. 
+4) java.applet -> To provide interactive features to web applications.
+5) java.awt -> Contains several layout manager classes and an interface for building your own layout manager.
+6) java.net -> Provides the classes for implementing networking applications.
+
+*****************************************************************************************************************************************
+
+* The Object class is at the top of the hierarchy in inhertance. Every class extends this class either directly or indirectly.
