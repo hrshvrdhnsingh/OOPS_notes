@@ -1,0 +1,16 @@
+/*************Internal Working of statements*************
+1) System.out.println
+   
+    out-> Its a final static variable of PrintStream class; static meaning an oobject need not be created to access it.
+        SYNTAX: /*public static final PrintStream out = null;*//* 
+        null meaning that the standard output is the one on the console.
+    println-> a method of the PrintStream class. Takes input as string type and converts it to desired format. 
+2) Singleton Class
+
+    A class in which one is allowed to only create a single object of. To achieve that we must allow the comstructor to be 
+    accessed only once. vis a vis private constructor. This allows the constructor to be accessed within the class only.*/
+public class Singleton{
+    private Singleton(){
+        //This can only be accessed within the class Singleton only.
+    }
+}

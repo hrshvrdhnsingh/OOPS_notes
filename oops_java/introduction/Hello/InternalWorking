@@ -1,0 +1,6 @@
+*************Internal Working of statements*************
+1) System.out.println
+   
+   out-> Its a final static variable of PrintStream class; static meaning an oobject need not be created to access it.
+        SYNTAX: /*public static final PrintStream out = null;*/
+        null meaning that 
