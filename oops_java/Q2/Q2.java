@@ -1,4 +1,4 @@
-package com.harsh.Q2;
+package oops_java.Q2;
 
 public class Q2 {
     public static void main(String[] args) {

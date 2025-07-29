@@ -1,6 +1,6 @@
-package com.harsh.demo1.Exception;
-//Chained Exceptions allows to relate one exception with another exception, i.e one exception 
-//describes cause of another exception.
+package oops_java.intro.Exception;
+// Chained Exceptions allows to relate one exception with another exception, i.e one exception 
+// describes cause of another exception.
 public class ChainedExceptions {
     public static void main(String[] args) {
         try{

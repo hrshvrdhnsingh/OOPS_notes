@@ -1,4 +1,4 @@
-package com.harsh.demo1.Generics;
+package oops_java.intro.Generics;
 
 import java.util.Arrays;
 

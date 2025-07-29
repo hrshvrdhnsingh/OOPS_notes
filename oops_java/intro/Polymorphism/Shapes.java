@@ -1,4 +1,4 @@
-package com.harsh.demo1.Inheritance.Polymorphism;
+package oops_java.intro.Polymorphism;
 //final keyword prevents Inheritance; the child class can't access the parent class.
 //Jobs of final keyword: create constants, prevent inheritance and prevent methods from being overridden.
 //Once a class is declared final, it implicitly declares the methods as final too.

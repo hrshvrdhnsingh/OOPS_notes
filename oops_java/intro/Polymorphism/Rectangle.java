@@ -1,4 +1,4 @@
-package com.harsh.demo1.Inheritance.Polymorphism;
+package oops_java.intro.Polymorphism;
 
 public class Rectangle extends Shapes{
     //This will run when object of Rectangle is called, hence it overrides the parent method.

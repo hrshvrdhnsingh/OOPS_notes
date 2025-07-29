@@ -1,4 +1,4 @@
-package com.harsh.Q2;
+package oops_java.Q2;
 
 public class Circcle extends Shape{
     int r;

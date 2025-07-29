@@ -1,9 +1,9 @@
-package com.harsh.demo1.Exception;
+package oops_java.intro.Exception;
 
 public class CustomExceptions {
     public static void main(String[] args) {
         try{
-            vote(10);
+            vote(19);
         }
         catch(Exception e){
             System.out.println(e.getMessage());

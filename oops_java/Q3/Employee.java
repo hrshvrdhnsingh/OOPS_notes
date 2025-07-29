@@ -1,4 +1,4 @@
-package com.harsh.Q3;
+package oops_java.Q3;
 
 public class Employee implements Person{
 

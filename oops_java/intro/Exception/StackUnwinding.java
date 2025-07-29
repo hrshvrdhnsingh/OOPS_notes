@@ -1,4 +1,4 @@
-package com.harsh.demo1.Exception;
+package oops_java.intro.Exception;
 /* When an exception is thrown but not caught in a particular scope, the method-call stack is "unwound," 
  * and an attempt is made to catch the exception in the next outer try block.
  * Unwinding the method-call stack means that the method in which the exception was not caught terminates, 
@@ -14,7 +14,7 @@ public class StackUnwinding {
             throwException();//When the control return here, try block is terminated.
         }
         catch(Exception e){
-            //Since the Exception typr can be handled here, hence the the exeption is caught here.
+            // Since the Exception type can be handled here, hence the the exeption is caught here.
             System.out.println("Method handles in main."); // Printed third
         }
         finally{

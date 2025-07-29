@@ -182,6 +182,7 @@ The mechanism of hiding the complex implementation details of a system and expos
 1. When you need to share code (common fields or method implementations) across related classes.
 1. Every abstract method must be declared in subclass, unless the subclass is abstract as well.
 1. Any instance methods are simply inherited, with override possible unless they are final.
+1. Allowed methods are abstract methods(no body) and concrete methods(woth body)
 1. Private methods are never inherited.
 
 ```cpp
@@ -213,10 +214,11 @@ public class Car extends Vehicle {
 
 1. Only public static final constants (compile-time constants).
 1. No constructors (cannot be instantiated or subclassed via extends in that way).
-1. A class may implement multiple interfaces, allowing mix-in of behaviors.
+1. A class may implement multiple interfaces, allowing mix-in of behaviors.(Allows multiple inheritance)
 1. When you need a pure contract without implementation or shared state.
 1. Every abstract methods without a body should be implemented.
 1. The default methods of the interface are inherited as it if were the subclass's own, with override possible.
+1. Methods allowed are abstract methods, as well as default, protected(belongs to the interface) and private.
 
 ```cpp
 // Define an abstraction for “Playable”

@@ -1,4 +1,4 @@
-package com.harsh.demo1.ObjectDemo;
+package oops_java.intro.ObjectDemo;
 
 public class tostringoverride {
     int rollno;  

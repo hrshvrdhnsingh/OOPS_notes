@@ -11,10 +11,11 @@ public class Box extends Inheritance1{
         Inheritance1 ob1= new Box(); // We are creating an instance of Box but storing the reference in type Inheritance1.
         // dynamic method dispatch -> all the method of the actual object (Box) instead of the reference type (Inheritance1).
         // So calls the overridden methods in the child class unless no override exists.
-
+        // Compile-time view is of the base class or the refernce type(Inheritance1)
+        // On runtime, the actual subclass's method is called, unless they are not overriden. Then the base class is referred.
         // Derived d; Base b = d; 
         // The thing wherein we on doing this ob1 loses the contents of the derived class ie; Box is called
-        // Object Slicing and isn't allowed in Java like it does in C++. The knowledge of the dderived class is
+        // Object Slicing isn't allowed in Java like it does in C++. The knowledge of the dderived class is
         // sliced off as base class has knowledge of it's own members. So the same thing has different behaviour
         // in either languages.
         

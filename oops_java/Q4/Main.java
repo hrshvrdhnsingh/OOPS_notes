@@ -1,4 +1,4 @@
-package com.harsh.Q4;
+package oops_java.Q4;
 
 public class Main {
     public static void main(String[] args) {

@@ -1,7 +1,7 @@
-package com.harsh.demo1.Inheritance.Polymorphism;
+package oops_java.intro.Polymorphism;
 
 public final class Circle extends Shapes{
-    int weight=120;
+    int weight = 120;
     @Override
     void area(){
         System.out.println("I am in Circle.");

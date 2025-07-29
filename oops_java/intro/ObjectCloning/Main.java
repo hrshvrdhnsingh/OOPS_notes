@@ -1,4 +1,4 @@
-package com.harsh.demo1.ObjectCloning;
+package oops_java.intro.ObjectCloning;
 
 public class Main implements Cloneable{
     public static void main(String[] args) throws CloneNotSupportedException {

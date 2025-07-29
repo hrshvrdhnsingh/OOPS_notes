@@ -1,4 +1,4 @@
-package com.harsh.demo1.ObjectDemo;
+package oops_java.intro.ObjectDemo;
 /*Demonstration of Object Classes */
 public class Demo {
     int num; 

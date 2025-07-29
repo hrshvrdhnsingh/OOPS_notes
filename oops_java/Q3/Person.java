@@ -1,4 +1,4 @@
-package com.harsh.Q3;
+package oops_java.Q3;
 
 public interface Person {
     public void work();

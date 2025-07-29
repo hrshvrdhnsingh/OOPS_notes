@@ -7,7 +7,7 @@ public class BoxWeight extends Box{
         super();//used to call parent class construtor; If not present the default constructor is called.
         //weight=23;
         System.out.println(this.age); // 10
-        System.out.println(super.age); // 23
+        System.out.println(super.age); // 12
         System.out.println(year);// 2023 -> static methods can be called easily without object.
         System.out.println(l); // 23
     }

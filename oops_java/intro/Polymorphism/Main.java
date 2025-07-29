@@ -1,8 +1,8 @@
-package com.harsh.demo1.Inheritance.Polymorphism;
+package oops_java.intro.Polymorphism;
 //Existence of an identity in multiple forms.In other words, polymorphism allows you to define one interface and have multiple implementations. 
 //Method Overloading(Compile-Time or Static) and Method Overriding(Runtime or Dynamic).
-//Static-> As java decides which method to call at compile-time. We saw method overloading in Box and Boxweight.
-//Dynamic-> When there is a conflic between same name of method in parent and child class.
+// Static-> As java decides which method to call at compile-time. We saw method overloading in Box and Boxweight.
+// Dynamic-> When there is a conflic between same name of method in parent and child class.
 //Overloading and overriding aren't applied to instance variables as they both are related to methods. Overloading of
 //instance variable can't be done as variables with the same name in the same class will not be permitted. Overriding can't 
 //be done as a subclass having variable of same name, so it won't override it, it will just hide it. 
@@ -35,6 +35,7 @@ public class Main {
 /*If the refernce type is of parent class and the object is of type sub-class, then the method being called willbe of Child class and this is called Upcasting.
  * And this is how Overriding works.(Java does this via Dynamic Method Dispatch)
  * Parent tells us what the object can access(i.e; area method) but which method it can access is informed to us via the Child class.
+ * 
  * Dynamic Method Dispatch(Late Binding) - Process by which call to a overridden method is resolved at runtime. When such a declaration is met by Java,
  * it decides which version to call based on the reference. Slower due to lookup overhead.
  * One can't override a final method. Makes the job of JRE easier as it directly has to copy the code as overriding is not possible at runtime.

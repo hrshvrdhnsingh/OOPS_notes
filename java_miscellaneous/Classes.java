@@ -36,8 +36,8 @@ public class Classes {
         //being created
     }
 }
-//Students ob is th declaration part, memory is not yet allotted to the object
-//(Declaration is done during compile time)
-//ther allocating of address is done during runtime
-//new keyword can't be used for primitive data types and hence,they are stored in stack memory
-//whereas objects are stores in heap memory
+// Students ob is th declaration part, memory is not yet allotted to the object
+// (Declaration is done during compile time)
+// the allocating of address is done during runtime
+// new keyword can't be used for primitive data types and hence,they are stored in stack memory
+// whereas objects are stores in heap memory

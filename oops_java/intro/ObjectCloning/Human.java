@@ -1,4 +1,4 @@
-package com.harsh.demo1.ObjectCloning;
+package oops_java.intro.ObjectCloning;
 
 public class Human implements Cloneable{
     int age; String name;
@@ -14,6 +14,6 @@ public class Human implements Cloneable{
     }
     @Override
     public Object clone() throws CloneNotSupportedException{
-        return super.clone();
+        return super.clone(); // gives the shallow field-by-field copy of the object
     }
 }
