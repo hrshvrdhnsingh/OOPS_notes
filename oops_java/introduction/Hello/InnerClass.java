@@ -1,3 +1,5 @@
+package oops_java.introduction.Hello;
+// Difference between a static nested class and a non-static inner class.
 
 //Again here, the outside class can't be static because there is no upper body that can call that class.
 public class InnerClass {
@@ -15,8 +17,8 @@ public class InnerClass {
         Test ob2 = new Test("Sumit");
 
     }
-    //THoughe the outer class is static, still objects ob1 and ob2 point to different things.The class being static means that
+    //THough the outer class is static, still objects ob1 and ob2 point to different things.The class being static means that
     //it doesn't depend on InnerClass but still the variables inside it behave independently.
-    //Objects are created during runtime but since static methos have nothing to do with objects,
+    //Objects are created during runtime but since static methods have nothing to do with objects,
     //they are compile-time based.
 }

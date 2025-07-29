@@ -1,4 +1,4 @@
-package com.harsh.demo1.Inheritance;
+package oops_java.intro.Inheritance;
 
 public class Box extends Inheritance1{
     int age=12;static int year;

@@ -1,4 +1,4 @@
-package com.harsh.demo1.Interfaces;
+package oops_java.intro.Interfaces;
 
 public interface media {
     void start(); // Abstract method

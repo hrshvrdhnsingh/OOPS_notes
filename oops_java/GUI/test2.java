@@ -1,4 +1,4 @@
-package com.harsh.GUI;
+package oops_java.GUI;
 import java.awt.*;
 public class test2 {
     test2(){

@@ -1,4 +1,4 @@
-package com.harsh.demo1.Interfaces;
+package oops_java.intro.Interfaces;
 /*Similar to abstract classes just that Multiple Inheritance is allowed.
 
 * Interfaces cannot have instance variables as they are not meant to store data, so they are static to make it 

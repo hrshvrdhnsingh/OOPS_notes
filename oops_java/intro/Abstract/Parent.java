@@ -1,10 +1,8 @@
-
-package com.harsh.demo1.Abstract;
+package oops_java.intro.Abstract;
 // To enforce a common behavior across multiple classes.
-//Abstrsct just provides the presence of an an entity and it's chils's class 
-//responsibility to fill the gaps as per their need.
-//A class containing an abstract method needs to be declared as abstract.
-//Child class has to override all methods of parent class.
+// Abstract just provides the presence of an an entity and it's child's class responsibility to fill the gaps as per their need.
+// A class containing an abstract method needs to be declared as abstract.
+// Child class has to override all methods of parent class.
 public abstract class Parent {
     public int age;String name;
     
@@ -13,7 +11,7 @@ public abstract class Parent {
         this.name = name;
     }
 
-    void Hello(){
+    void Hello(){ // Not overriding the Hello method will call the parent class's method.
         //age = 20000;
         System.out.println("Hello from Parent Class.");
     }

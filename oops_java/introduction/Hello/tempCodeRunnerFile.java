@@ -1,1 +1,1 @@
-class InnerClass
+package oops_java.introduction.Hello;

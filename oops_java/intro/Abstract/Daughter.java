@@ -1,4 +1,4 @@
-package com.harsh.demo1.Abstract;
+package oops_java.intro.Abstract;
 
 public class Daughter extends Parent{
 
@@ -18,26 +18,26 @@ public class Daughter extends Parent{
     
     void display()
     {
-        career("Kritika");
+        career("Neha");
         partner("Harsh",19);
         System.out.println(age);
         System.out.println(name);
     }
 
     public static void main(String[] args) {
-        Son ob1 = new Son("LILI",34);
+        Son ob1 = new Son("Vishal",34);
         ob1.display();
         /* Harsh aspires to be coder.
-        My partner will be Kritika and age 19
+        My partner will be Sneha and age 19
         34
-        LILI
+        Vishal
         HEY from Son class */
 
-        Daughter ob = new Daughter(20,"Ashna");
+        Daughter ob = new Daughter(20,"Neha");
         ob.display();
-        /* Kritika aspires to be coder.
+        /* Neha aspires to be coder.
         My partner will be Harsh and age 19
         20
-        Ashna */
+        Neha */
     }
 }

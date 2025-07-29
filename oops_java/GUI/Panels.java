@@ -1,4 +1,4 @@
-package com.harsh.GUI;
+package oops_java.GUI;
 
 import javax.swing.*;
 import java.awt.*;

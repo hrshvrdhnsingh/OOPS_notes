@@ -1,4 +1,4 @@
-package com.harsh.demo1.Interfaces;
+package oops_java.intro.Interfaces;
 
 public class Main {
     public static void main(String[] args) {
@@ -9,12 +9,13 @@ public class Main {
         car.stop(); // I stop the Car.
 
         //Since stop() for media isn't defined, it calls the stop() method of Engine and that of media as both have the stop() function.
+        // the media iobject can only call methods that it has defined ie; start and stop
+        // At runtime, java uses dynamic dispatch to call Car's overrides
         media med = new Car();
         med.stop(); // I stop the Car.
-
-        System.out.println("HEllo");
-
         med.start(); // I start the Car.
+        
+        System.out.println("HEllo");
 
         niceCar ob = new niceCar();
         ob.startMusic(); // Music startsssss 

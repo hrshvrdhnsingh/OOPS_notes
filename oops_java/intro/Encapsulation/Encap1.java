@@ -1,40 +1,52 @@
-package com.harsh.demo1.Encapsulation;
+package oops_java.intro.Encapsulation;
 /*Encapsulation:  the process by which data (variables) and the code that acts upon them (methods) are integrated as a 
-single unit. 
-Hiding data (variables) and allowing controlled access through methods.
-By encapsulating a class's variables, other classes cannot access them, and only the methods of the class can access them.
-Protect data and enforce restrictions.
-It solves an implementation level issue.
-By declaring instance variables as private we make sure that it can't be accessed by any one else or the use of getter-setter methods. 
-Focuses on Internal stuff. It's about containing information.
-Allowing access and modificatin through a controlled interface or methods.
--> private String name;
--> public String getName() { return name; }
+  single unit. (hides the internal representation)
+-> Hiding data (variables) and allowing controlled access through methods.
+-> By encapsulating a class's variables, other classes cannot access them, and only the methods of the class can access them.
+-> Protect data and enforce restrictions.
+-> It solves an implementation level issue.
+-> By declaring instance variables as private we make sure that it can't be accessed by any one else 
+  or the use of getter-setter methods. 
+-> Focuses on Internal stuff. It's about containing information.
+-> Allowing access and modification through a controlled interface or methods.
+  public class Person {
+      private String name;
+      
+      public String getName() {
+          return name;
+      }
+
+      public void setName(String name) {
+          this.name = name;
+      }
+  }
 */
 
 
 /*Abstraction: Hiding the unnecessary details and showing only the valuable details.
-Hiding implementation details and exposing only the essential functionality.
-Reduce complexity and increase reusability.
-Implementation of abstract classes is a good example of Abstraction.
-System.out.println is a good example as well. We are only aware of the println method to print the content but the rest details are hidden from us.
-Focuses on external stuff.It's about gaining information.
+-> Hiding implementation details and exposing only the essential functionality.(the "what" and not the "how")
+-> Reduce complexity and increase reusability.
+-> Implementation of abstract classes is a good example of Abstraction.
+-> System.out.println is a good example as well. We are only aware of the println method to print the content but the rest details are hidden from us.
+-> Focuses on external stuff.It's about gaining information.
 Can be achieved via :-
 -> Abstract Classes : A class that cannot be instantiated on its own but can be extended by other classes. 
                         It can have both abstract (unimplemented) methods and concrete (implemented) methods.
+                        * Allowed methods are abstract methods(no body)  and concrete methods(with body) 
                         * Allows only single inheritance
-                        * Allows constant and non-constant fields
+                        * Allows constant and non-constant field, and of any visibility
                         * Can have constructors.
+                        * Can't have private methods.
                         * Used when you want to provide some common behavior (methods with implementation) 
                           for all subclasses, and when the classes are closely related.
--> Interfaces :- A completely abstract type that only contains method signatures (no implementations). 
+-> Interfaces :- A completely abstract type that only contains method signatures(can have default/static methods). 
                         Classes that implement an interface must provide the implementation for all its methods.
+                        * Methods allowed are abstract methods, and also default, static(belong to the interface) & private
                         * Allows multiple inheritance
-                        * Doesn't allow non-constant.
+                        * Doesn't allow non-constant
+                        * Can have private methods
                         * No constructorrs allowed as they are not allowed to instantiate fields -> all variables are public, static, final
                         * Used when you want to define a contract that can be implemented by unrelated classes. 
-                          Interfaces are ideal for scenarios where you want to ensure certain methods are implemented 
-                          without dictating how they are implemented.
                         
 => In both the above the class that extends or implements needs to provide implementation to all of the abstract methods 
   otherwise an error will be shown. Otherwise we can that declare that class as abstract as well so that another class
@@ -44,13 +56,13 @@ Can be achieved via :-
   which could lead to runtime errors.
 => Abstract methods in an abstract class or interface act as a contract that any subclass or implementing class must fulfill. 
   If a class declares that it will inherit from an abstract class or implement an interface, it's expected to provide all 
-  the behaviors promised by the contract (i.e., the abstract methods). f the class doesn't provide an implementation
+  the behaviors promised by the contract (i.e., the abstract methods). If the class doesn't provide an implementation
   for one or more abstract methods, it's an incomplete class. Declaring such a class as abstract signals that it is still
   waiting for other subclasses to fulfill the remaining part of the contract.
 */
 
 
-/*Data Hiding-> Focuses on security of information and Encapsulation focuses on hiding complexiy of the system.
+/* Data Hiding -> Focuses on security of information and Encapsulation focuses on hiding complexiy of the system.
  * Getter Setter is based on Data Hiding. It hides the private members. Encapsulation is a sub-part of Data Hiding.
  * Restricting access to the internal state of an object, typically acheved through the use of access modifiers or getter-setter methods.
  */

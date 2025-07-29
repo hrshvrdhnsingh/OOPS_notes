@@ -1,4 +1,4 @@
-package com.harsh.demo1.Inheritance;
+package oops_java.intro.Inheritance;
 
 public class BoxWeight extends Box{
     //public int weight;

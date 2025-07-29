@@ -1,4 +1,4 @@
-package com.harsh.demo1.Interfaces;
+package oops_java.intro.Interfaces;
 
 public class Car implements Engine,Brakes,media {
     @Override
@@ -11,7 +11,7 @@ public class Car implements Engine,Brakes,media {
         System.out.println("I start the Car.");
     }
 
-    //Class media also has start() and stop(). This is conflict but Java allows it since the signature is same.
+    // Class media also has start() and stop(). This is conflict but Java allows it since the signature is same.
     @Override
     public void stop() {
         System.out.println("I stop the Car");

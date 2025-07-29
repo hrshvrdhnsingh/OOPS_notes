@@ -1,4 +1,4 @@
-package com.harsh.demo1.Inheritance;
+package oops_java.intro.Inheritance;
 
 public class Inheritance1 {
     int l,b,h;
@@ -15,11 +15,11 @@ public class Inheritance1 {
         Box ob = new BoxWeight();
     }
 }
-//Single Inheritance: One class inherits another class.
+// Single Inheritance: One class inherits another class.
 
-//Hierarchial Inheritance: The child class is pareant for another and the cycle continues.
+// Hierarchial Inheritance: The child class is pareant for another and the cycle continues.
 
-//Multi-Level: Child class has two parent class and due to possibility of conflict of variables,
-//it's not allowed in Java.
+// Multi-Level: Child class has two parent class and due to possibility of conflict of variables,
+// it's not allowed in Java.
 
-//Hybrid Inheritance: Mix of hierarchial and single inheritance. 
+// Hybrid Inheritance: Mix of hierarchial and single inheritance. 

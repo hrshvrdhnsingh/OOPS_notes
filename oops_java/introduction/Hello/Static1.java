@@ -1,6 +1,6 @@
-package com.harsh.introduction.Hello;
+package oops_java.introduction.Hello;
 
-/*Those properties that are not related to the object being created are cslled static variables.
+/*Those properties that are not related to the object being created are called static variables.
  * A static variable can be accessed before any of the objects is created i.e; can be called
    without referencing to the object.
  * main() method is staic because it needs to be called without any object of the class being created.
